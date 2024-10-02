@@ -1,0 +1,45 @@
+name: mymind_test
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ^3.3.3
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  ###
+  go_router: ^14.2.7
+  firebase_core: ^2.24.2
+  firebase_remote_config: ^4.3.3
+  appsflyer_sdk: 
+  app_tracking_transparency: ^2.0.4
+  flutter_inappwebview: ^5.8.0
+  flutter_svg: ^2.0.10+1
+  http:
+  onesignal_flutter: ^3.5.0
+  shared_preferences: ^2.2.3
+  ###
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/bg/
+    - assets/level/
+    - assets/cards/
+  fonts:
+    # SFProText
+    - family: Baloo2R
+      fonts:
+        - asset: assets/fonts/Baloo2-Regular.ttf
+    - family: Baloo2M
+      fonts:
+        - asset: assets/fonts/Baloo2-Medium.ttf
+    - family: Baloo2B
+      fonts:
+        - asset: assets/fonts/Baloo2-Bold.ttf
